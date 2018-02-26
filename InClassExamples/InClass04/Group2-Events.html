@@ -17,12 +17,21 @@
 <html>
 <head>
     <style>
-    body { font-size: 30px; }
+    body { font-size: 10px; }
     </style>
 </head>
 <body>
+    <p id="demo" onclick="myoneclickfunction()" ondblclick="mytwoclickfunction()" >click buttom to display </p>
 
-<p>Click the button to display the date.</p>
-
+    <script>
+    function myoneclickfunction() {
+      
+        document.getElementById("demo").style.fontSize="x-large";
+    }
+    function mytwoclickfunction() {
+      
+        document.getElementById("demo").style.fontSize="medium";
+    }
+    </script>
 </body>
 </html> 

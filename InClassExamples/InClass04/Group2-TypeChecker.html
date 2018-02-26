@@ -28,5 +28,9 @@
 <h1>Check Type</h1>
 Value: <input type="text" id="valueToCheck"> <input type="button" value="Check Type">
 <span id="typeInfo"> </span>
+
+var= document.getElementById("valueToCheck").value;
+if(isNaN(var)){
+	document.write(str1 + " is not a number <br/>");
 </body>
 </html> 
